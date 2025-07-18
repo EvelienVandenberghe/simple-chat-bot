@@ -18,10 +18,10 @@ Knowledge Test - Quiz on Java programming concepts
 Farewell - Congratulatory message upon completion
 
 SimpleBot.java
-├── main()           # Program entry point and flow control
-├── greet()          # Introduction and name collection
-├── remindName()     # Name processing and response
-├── guessAge()       # Mathematical age guessing game
-├── count()          # Counting demonstration
-├── test()           # Programming knowledge quiz
-└── end()            # Final congratulations
+- main()           # Program entry point and flow control
+- greet()          # Introduction and name collection
+- remindName()     # Name processing and response
+- guessAge()       # Mathematical age guessing game
+- count()          # Counting demonstration
+- test()           # Programming knowledge quiz
+- end()            # Final congratulations
