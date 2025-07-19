@@ -28,19 +28,22 @@ public class SimpleBot {
     static void guessAge() {
         System.out.println("Let me guess your age.");
         System.out.println("Enter remainders of dividing your age by 3, 5 and 7.");
-        int rem3 = scanner.nextInt();
-        int rem5 = scanner.nextInt();
-        int rem7 = scanner.nextInt();
-        int age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105;
+        int three = scanner.nextInt(); // diff var names
+        int five = scanner.nextInt();
+        int seven = scanner.nextInt();
+        int age = (three * 70 + five * 21 + seven * 15) % 105;
         System.out.println("Your age is " + age + "; that's a good time to start programming!");
     }
 
     static void count() {
         System.out.println("Now I will prove to you that I can count to any number you want.");
         int num = scanner.nextInt();
-        for (int i = 0; i <= num; i++) {
-            System.out.printf("%d!\n", i);
+        int i = 0;
+        while (i<=number){ // no for loop, printf
+            System.out.println(i + "!");
+            i++;
         }
+
     }
 
     static void test() {
